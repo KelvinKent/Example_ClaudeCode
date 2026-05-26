@@ -1,0 +1,75 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+
+# === Environment Variables ===
+.env
+.env.*
+!.env.example
+
+# === FastAPI / Uvicorn ===
+*.log
+uvicorn.log
+
+# === Testing ===
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+nosetests.xml
+test-results/
+
+# === Type Checking ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# === IDE / Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Docker ===
+*.env.docker
+
+# === Alembic / DB Migrations ===
+alembic/versions/*.pyc
+
+# === Secrets / Keys ===
+*.pem
+*.key
+*.p12
+secrets/
